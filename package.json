@@ -1,0 +1,19 @@
+{
+    "name": "node-db4-challenge",
+    "version": "1.0.0",
+    "description": "NODE DB4 CHALLENGE",
+    "main": "index.js",
+    "scripts": {
+        "server": "nodemon index.js"
+    },
+    "keywords": [],
+    "author": "Lukas Jaronis",
+    "dependencies": {
+        "express": "^4.17.1",
+        "knex-cleaner": "^1.3.0",
+        "sqlite3": "^4.1.1"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.2"
+    }
+}
